@@ -1,0 +1,61 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styles */
+  body {
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top left, #858885ff, #ff7878);
+  }
+  
+  /* Container Styles */
+  .container {
+    background: linear-gradient(to top right, #ff3636, #6868ff);
+    padding: 1.2rem;
+    border-radius: 2.6rem;
+    border: 1.2px solid blueviolet;
+  }
+  
+  /* Heading Styles */
+  h1 {
+    margin: 1rem 0;
+  }
+  
+  /* Input Styles */
+  input {
+    width: 100%;
+    padding: 0.9rem;
+    margin: 1.2rem 0;
+    border: 0;
+    border-radius: 4px;
+  }
+  
+  /* Button Styles */
+  button {
+    transition: all 0.2s linear;
+    background-color: #4c6faf;
+    color: #fff;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3e518e;
+  }
+  
+  /* Result Styles */
+  #result {
+    margin-top: 10px;
+  }
+  
